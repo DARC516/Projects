@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 70pt; 
+}
+
+h2{
+    text-align: center;
+    color: red;
+    font-size: 12pt; 
+}
+
+p{
+    text-align: center;
+    color: salmon;
+    font-size: 18pt;
+}
+
+hr {
+  border: none;              /* Removes default line */
+  border-top: 5px solid pink; /* 5px thick, pink */
+  margin: 30px 0;            /* Optional: adds space above/below */
+}
+
+button {
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.si-btn {
+  background: pink;
+  color: crimson;
+}
+
+.si-btn:hover {
+  background: darkred;
+  transform: scale(2.25);
+}
+
+.no-btn {
+  background: lightslategray;
+  color: purple;
+}
+
+.no-btn:hover {
+  background: black;
+  transform: scale(0.6);
+}
+
